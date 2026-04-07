@@ -1,0 +1,6 @@
+.vscode/
+ur_gz/build/
+ur_gz/install/
+ur_gz/log/
+ur_gz/models/
+ur_gz/tb_logs/
