@@ -1,6 +1,6 @@
 # ur_rl_sb3
 
-A resume-oriented RL extension package for `ur_simulation_gz`, using Stable-Baselines3 to train a policy for UR joint-goal reaching in Gazebo.
+A RL extension package for `ur_simulation_gz`, using Stable-Baselines3 to train a policy for UR joint-goal reaching in Gazebo.![alt text](video.gif)
 
 ## What this package adds
 
@@ -10,14 +10,6 @@ A resume-oriented RL extension package for `ur_simulation_gz`, using Stable-Base
 - A launch file that starts UR simulation with `forward_position_controller`
 - RViz goal marker publishing on `/ur_rl_sb3/goal_marker`
 - Per-episode end reason logging (`goal_reached` / `max_steps`)
-
-## 中文教程（零基础到面试）
-
-- `docs/00_学习路径与总览.md`
-- `docs/01_ROS2_零基础入门.md`
-- `docs/02_项目架构与RL原理.md`
-- `docs/03_从零跑通训练与可视化.md`
-- `docs/04_实习面试高频问答.md`
 
 ## Dependencies
 
@@ -75,7 +67,7 @@ If you launch with RViz enabled, add a `Marker` display and set topic to:
 
 You will see the random target point as a red sphere in `base_link` frame.
 
-## Suggested resume description
+## description
 
 - Designed and implemented a ROS2-Gazebo reinforcement learning pipeline for UR5, wrapping simulator control into a custom Gymnasium environment.
 - Trained continuous-control policies with Stable-Baselines3 (SAC), and evaluated policy quality via success rate and final joint-error metrics.
